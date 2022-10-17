@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* navbar styling */
+.logo{
+    height: 50px;
+    width: 50%;
+    margin-left:120px;
+}
+.logos ul li {
+    display:inline ;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+ul li a{
+    margin-left: 55px;
+font-weight: bold;
+font-size: 16px;
+color: black;
+}
+nav{
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    width: 100%;
+    height: 65px;
+}
+ul li a:hover{
+    color:brown;
+    border-bottom: 3px solid rgb(78, 50, 50);
+}
+ #main-sec{
+height: 100vh;
+width: 100%;
+display: flex;
+align-items: flex-start;
+justify-content: space-between; 
+}
+
+/* images styling */
+.ladies-wear{
+    height:auto;
+    width: 80%;
+    margin-left: 255px;
+    margin-top: 20px;
+}
+.ladies-wear img{
+    height: 300px;
+    width: 40%;
+    padding: 5px;
+    margin-right: 10px;
+}
+/* right side styling */
+#right-side{
+    width: 70%;
+    height: 100vh;
+    margin-top: 10px;
+    margin-right: 27px;
+}
+/* button styling with hover effects */
+button:hover{
+    background-color: brown;
+    color: #024;
+}
+/* the add to cart and buy now buttons styling */
+.add{
+    margin-left: 15px;
+height: 30px;
+width: 380px;
+padding: 2px;
+border:1px solid black;
+color: #005;
+font-weight: bold;
+opacity: 0.5;
+}
+.add:hover{
+    opacity:1;
+    background-color: crimson;
+    color: white;
+}
+.buy{
+    margin-top: 10px;
+    margin-left: 15px;
+height: 30px;
+width: 380px;
+padding: 2px;
+border:1px solid black;
+color: #fff;
+background:#011;
+font-weight: bold;
+}
+.buy:hover{
+    background-color: goldenrod;
+    color: black;
+}
+/* para1 styling */
+.para1{
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.para2{
+    margin-left: 5px;
+    margin-top: 15px; 
+}
+/* botom-menu styling */
+.materials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ship{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dimensions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.care{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Making the UI as responsive using Media queries */
+@media only screen and(min-width:600px) {
+    div.main-sec{
+width: 100%;
+height: auto;
+display: block;
+align-items:center;
+justify-content: center;
+    }
+}
